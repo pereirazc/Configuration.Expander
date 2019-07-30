@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Configuration.Expander</id>
+    <title>Configuration.Expander</title>
+    <version>0.1.0</version>
+    <description>
+      An extension to enable configuration variable expansion
+    </description>
+    <summary>
+      An extension to enable configuration variable expansion
+    </summary>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <authors>Isaac Pereira</authors>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/pereirazc/Configuration.Expander</projectUrl>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Extensions.Configuration" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="2.2.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin/Release/**/*.dll" target="lib" />
+  </files>
+</package>

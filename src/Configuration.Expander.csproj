@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>Configuration.Expander</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Isaac Pereira</Authors>
+    <Company>Multicast</Company>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <NuspecFile>Configuration.Expander.nuspec</NuspecFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>
